@@ -1,4 +1,11 @@
 p {
     color: orange;
-    text-shadow:1px 1px 2px black;
+    text-shadow:1px 1px 2px orange;
+    font-size: 48px;
+    
+}
+/*   Selektor Id */
+#paragraph {
+    color: blue;
+    text-shadow:1px 1px 2px blue;
 }
