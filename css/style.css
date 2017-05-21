@@ -1,20 +1,50 @@
+
 p {
     color: orange;
     text-shadow:1px 1px 2px orange;
-    font-size: 48px;
+    font-size: 24px;
     font-family: Verdana;
     font-style: italic;
     font-weight: 800;
     font-variant: small-caps;
     line-height: 80px;
+    border-style: groove;
+    border-color: blueviolet;
+    border-radius: 20px;
+    
+}
+div,span {
+    color: peachpuff;
+    text-shadow:1px 1px 2px peachpuff;
+    font-size: 24px;
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: 800;
+    font-variant: small-caps;
+    border-style: groove;
+    line-height: 80px;
+    border-color: red;
+    border-radius: 20px;
     
 }
 /*   Selektor Id */
 #paragraph {
     color: blue;
     text-shadow:1px 1px 2px blue;
+    border-color: yellow;
 }
 .klasa_zielony {
     color: green;
     text-shadow:1px 1px 2px green;
+    border-color: brown
+    
+}
+body{
+    background-color: black;
+    
+    
+}
+li>a{
+    color:aqua;
+    
 }
