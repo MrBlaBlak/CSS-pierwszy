@@ -2,10 +2,19 @@ p {
     color: orange;
     text-shadow:1px 1px 2px orange;
     font-size: 48px;
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: 800;
+    font-variant: small-caps;
+    line-height: 80px;
     
 }
 /*   Selektor Id */
 #paragraph {
     color: blue;
     text-shadow:1px 1px 2px blue;
+}
+.klasa_zielony {
+    color: green;
+    text-shadow:1px 1px 2px green;
 }
