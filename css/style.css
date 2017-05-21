@@ -1,5 +1,5 @@
 
-p {
+p{
     color: orange;
     text-shadow:1px 1px 2px orange;
     font-size: 24px;
@@ -52,4 +52,13 @@ h2 + h3{
 body{
     background-color: black;
     color:white;   
+}
+h4 ~ p{
+    color: chocolate;
+}
+ul>li:not(.last) {
+    color:crimson;
+}
+ol>li:nth-child(2n+1){
+    color:darkslategrey;
 }
